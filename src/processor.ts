@@ -29,7 +29,7 @@ export const processor = new SubstrateBatchProcessor()
         name: [events.balances.transfer.name],
         extrinsic: true
     })
-    .setBlockRange({ from: 2800000 })
+    .setBlockRange({ from: 3067900 })
     .setFields({
         event: {
             args: true
